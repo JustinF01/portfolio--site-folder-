@@ -1,0 +1,964 @@
+/*********************
+General Styling
+********************/
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  letter-spacing: .08em;
+  color: #363535;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #494a4a;	
+  margin: 5%;
+  height: 50px;
+  font-size: 1.125em;
+}
+
+input:focus {
+  border-image: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Actor', sans-serif;
+}
+
+h1 {
+  font-size: 2.45em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.1875em;
+}
+
+h4 {
+  font-size: .25em;
+}
+
+#services,
+#about,
+#portfolio,
+#contact {
+  width: 100%;
+  margin: 0;
+  padding: 2%;
+  text-align: center;
+}
+
+#aboutPlacement,
+#servicesPlacement,
+#portPlacement,
+#contactPlacement,
+.portItemWrapper {
+  max-width: 1020px;
+  height: auto;
+  margin: 0 auto;
+  padding: 7% 1% 1%;
+}
+
+#servicesPlacement {
+  padding: 0;	
+}
+
+#contactPlacement {
+  padding-bottom: 50px;	
+}
+
+.serviceIcon {
+  display: inline-block;
+  width: 10%;	
+}
+
+.serviceIcon img {
+  width: 100%;	
+}
+
+
+/*********************
+Links
+********************/
+
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+/***********************
+Main Navigation Styling
+***********************/
+
+
+#mainNav {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  background: rgba(95, 92, 92, .95);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.mobileNav {
+  	width: 20%;
+	float: right;
+	margin: 1%;
+	cursor: pointer;
+	background:none;
+	border-radius: 10px;
+	-webkit-transition: background 0.5s;
+	transition: background 0.5s;
+}
+
+.mobileNav:hover {
+  	background: #09C;
+}
+
+.hamburgerBar {
+  width: 70%;
+  height: 7px;
+  margin: 9px auto;
+  background: #fff;
+  border-radius: 3px;	 
+}
+
+#logoPlaceholder {
+  display: inline-block;
+  width: 19%;
+  height: auto;
+  margin: 1%;
+  padding: 0;
+  
+}
+
+#logoPlaceholder a {
+  display: block;	
+}
+
+#siteLogo {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  display: none;	
+}
+
+.navLinks {
+  list-style: none;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background: rgba(95, 92, 92, .8);
+  display: none;
+}
+
+.navItem {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.navItem a:hover {
+  color: #09b6f6;
+}
+
+.needsButton {
+  width: 90%;
+  display: block;
+  margin: 4% auto;
+  padding: 12px;
+  border-radius: 10px;	
+}
+
+.needsButton a {
+  display: block;
+  height: 100%;
+  color: #fff;	
+}
+
+
+/***********************
+Services Section
+***********************/
+
+#services {
+  position: relative;
+  background-image: url("../images/table-mountain.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#services h1 {
+  margin: 100px auto 40px;
+}
+
+.printDesign,
+.webDesign {
+  width: 95%;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: none;
+  transition: all ease-in-out 1s;
+}
+
+.printDesign img,
+.webDesign img {
+  width: 100%;
+  height: auto;
+}
+
+.printDesign h2,
+.webDesign h2 {
+  margin: 20px 0;
+}
+
+.printDesign:hover,
+.webDesign:hover {
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.4);	
+}
+
+
+/******************************************
+The popup content in the services section.
+*******************************************/
+
+
+.webPopUp,
+.webPopUp2 {
+  position: absolute;
+  width: 95%;
+  margin-left: -47.5%;
+  text-align: left;
+  background: #f4f6f6;
+  border-radius: 15px;
+  padding: 5%;
+  display: none;
+  top: 30vh;
+  left: 50%;
+  box-shadow: 0px 0px 10px #000;
+  -webkit-transition: display ease-in-out .1s;
+  transition: display ease-in-out .1s;	
+}
+
+#popUpHeading1,
+#popUpHeading2 {
+  display: inline-block;
+  width: 87%;
+  margin-left: 3%;
+  padding-top: 1%;
+  vertical-align: top;	
+}
+
+.popUpButton {
+  width: 100%;
+  height: 50px;
+  margin: 2% auto;
+  font-size: 1.125em;
+  border: none;
+  border-radius: 15px;
+}
+
+.popUpButton a {
+  display: block;
+  color: #fff;	
+}
+
+.closeWindow {
+ position: absolute;
+ width: 10%;
+ padding: .3%;
+ top: 1em;
+ left: 88%;
+ color: #333;
+ font-size: 1.45em;
+ border: none;
+ background: none;
+}
+
+.closeWindow:hover {
+  cursor: pointer;	
+}
+
+/***********************
+About Section
+***********************/
+
+#about {
+  text-align: left;	
+}
+
+.aboutNavigateButton {
+	position: relative;
+  	width: 100%;
+	height: 50px;
+	border-radius: 18px;
+	margin: 2% auto;
+	padding: 2.5%;
+	display: block;
+	text-align: center;
+}
+
+.aboutNavigateButton p {
+    display: block;
+	margin: 0;
+	text-align: center; 
+}
+
+.aboutNavigateButton a {	
+	display: block;
+	border-radius: 18px;
+}
+
+.name {
+  display: inline-block;
+  vertical-align: top;	
+}
+
+.sig {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;	
+}
+
+.sig img {
+  width: 100%;	
+}
+
+/***********************
+Portfolio Section
+***********************/
+
+
+
+#portfolio {
+  background: url("../images/beach.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.portfolioGallery {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.portItems {
+  position: relative;
+  width: 100%;
+  margin: 2% auto;
+  padding: 3%;
+  background: #fff;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 2px #333;
+  overflow: hidden;
+}
+
+.portDesc {
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  left: 0;
+  bottom: 0;
+  padding: 3%;
+  font-size: 1.125em;
+  background-color: rgba(60, 69, 69, .8);
+  color: #fff;
+  text-align: center;	
+}
+
+.portItems a {
+  display: block;
+  border-radius: 25px;	
+}
+
+.portItems:hover {
+  box-shadow: inset 0px 0px 200px #000;	
+}
+
+.portItems img {
+  width: 100%;
+  height: auto;	
+}
+
+
+/******************************
+Individual Portfolio Item Pages
+*******************************/
+
+.portImgWrapper {
+  width: 100%;
+  margin: 8% auto;
+  padding: 3%;
+  background: #fff;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 2px #333;	
+}
+
+.portImgWrapper img {
+  	width: 100%;
+	height: auto;
+}
+
+.portItemWrapper {
+  padding: 15% 2% 2%;	
+}
+
+.portItemButton {
+  	width: 100%;
+	margin: 2% 0;
+	padding: 6%;
+	border-radius: 5px;
+	border: none;
+	font-size: 1.125em;
+}
+
+.viewSite {
+  	width: 100%;
+	margin: 5% 0;
+	padding: 6%;
+	background: #dca600;
+	border-radius: 5px;
+	border: none;
+	font-size: 1.125em;
+}
+
+.viewSite:hover {
+  	box-shadow: inset 0px 0px 3px #494a4a;
+}
+
+.viewSite a {
+  display: block;	
+}
+
+.viewSite a:hover {
+  color: #363535;
+  cursor: pointer;
+}
+
+.portIconWrap {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 80px;
+  height: auto;	
+}
+
+.portIconWrap img {
+  width: 100%;	
+}
+
+
+/***********************
+Contact Section
+***********************/
+
+
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  margin: 5% 0;	
+}
+
+#contactForm input[type=submit] {
+  width: 100%;
+  height: 55px;
+  margin: 5% auto;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5em;
+  text-transform: uppercase;	
+}
+
+#contactInfo {
+  margin: 1%;
+  padding: 3%;
+  text-align: left;	
+}
+
+#contactInfo img {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+}
+
+#contactInfo a {
+  color: #09b6f6;	
+}
+
+#contactInfo h1 {
+  text-align: center;	
+}
+
+
+
+/***********************
+Needs Analysis Form
+***********************/
+
+
+.needsAnalysisForm {
+ padding: 85px 0 0 0;
+ font-size: 1.125em;
+}
+
+.needsAnalysisForm h1 {
+  width: 90%;
+  margin: 0 auto;	
+}
+
+#brief,
+.needsAnalysisForm p {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.userBrief {
+  display: block;
+  width: 100%;
+  margin: 0 0 5% 0;	
+}
+
+textarea[name*="userBrief"] {
+  margin: 1% auto 5%;	
+}
+
+#brief input[type="submit"] {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin: 5% auto;
+  border-radius: 15px;
+  font-size: 1.2em;
+  border: none;
+}
+
+ #crmWebToEntityForm label,
+ #crmWebToEntityForm input,
+ #crmWebToEntityForm textarea {
+  width: 100%;
+  margin: 1%;
+}
+
+ #crmWebToEntityForm {
+  width: 88%;
+  margin: 5% auto;
+}
+
+
+
+/****************
+Media Queries
+*****************/
+
+
+
+@media (min-width: 450px) {
+	
+.mobileNav,
+#logoPlaceholder{
+  	width: 15%;
+}
+	}
+	
+@media (min-width: 490px) {
+
+#logoPlaceholder{
+  	width: 12%;
+}
+
+	}
+	
+@media (min-width: 624px) {
+	
+.printDesign,
+.webDesign {
+  width: 45%;
+  margin: 2%;
+  padding: 4%;
+  display: inline-block;
+}
+
+.mobileNav {
+  	width: 12%;
+}
+
+#logoPlaceholder {
+  width: 8%;	
+}
+
+.aboutNavigateButton {
+  	width: 30%;
+	margin: 2% 1.1%;
+	padding: 1%;
+	display: inline-block;
+}
+
+.aboutNavigateButton p {	
+	font-size: 1.2em;  
+}
+
+.aboutNavigateButton a {
+}
+	}
+	
+@media (min-width: 710px) {
+
+
+/***************
+General page styling
+*****************/
+
+.title {
+  display: inline-block;
+  font-size: 1.125em;
+  color: #fff;
+  text-transform: capitalize;
+  margin: 0;
+  text-shadow: 0 0 4px #000;	
+}
+
+#services,
+#about,
+#contact {
+  height: 1020px;
+}
+
+#aboutPlacement,
+#servicesPlacement,
+#portPlacement,
+#contactPlacement,
+.portItemWrapper {
+  margin: 0 auto;
+  padding: 2% 1% 1%;
+  text-align: left;
+}
+
+
+/***************
+Portfolio
+*****************/
+
+.portItems {
+  width: 42%;
+  height: 250px;
+  margin: 1%;
+  display: inline-block;	
+}
+
+/**********************
+About Section
+***********************/
+
+#about {
+	position: relative;
+	background-repeat: no-repeat;
+	padding: 6% 0;
+}
+
+
+#aboutPlacement {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  padding: 3%;
+  line-height: 1.85;
+  border-radius: 25px;
+}
+
+#aboutPlacement h1 {
+  margin: 2%;
+}
+
+#aboutNavigate {
+  width: 100%;
+  margin: 0;	
+}
+
+/******************************
+Individual Portfolio Item Pages
+*******************************/
+
+.portImgWrapper {
+  display: inline-block;
+  width: 58%;
+  margin: 2%;
+  padding: 2%;
+  vertical-align: top;	
+}
+
+.portTextWrap {
+  display: inline-block;
+  width: 36%;
+  padding: 2%;
+  vertical-align: top;
+}
+
+.portItemWrapper {
+  padding-top: 10%; 	
+}
+
+/***************
+Contact section
+*****************/
+
+
+form input {
+  width: 48%;
+  margin: 0;
+  display: inline-block;	
+}
+
+#email {
+  margin-left: 2.5%;	
+}
+
+input[type=submit] {
+  width: 30%;
+  height: 45px;	
+}
+
+form textarea {
+  width: 100%;
+  margin: 5% auto 1%;		
+}
+
+#contactForm input[type=submit] {
+  width: 30%;	
+}
+
+#contactForm,
+#contactInfo {
+  display: inline-block;
+  vertical-align: top;	
+}
+
+#contactForm {
+  width: 65%;
+  margin: 4% 0 0 0;	
+}
+
+#contactInfo {
+  width: 30%;
+  margin: 0 0 0 3%;	
+}
+
+
+/**********************
+Needs Analysis/Brief Page
+***********************/
+
+
+
+#brief,
+.needsAnalysisForm p,
+.needsAnalysisForm h1 {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  padding: 85px 0 0 0;	
+}
+
+#brief input[type="submit"] {
+  width: 30%;
+}
+
+.needsAnalysisForm h2 {
+  margin: 6% 0;	
+}
+
+
+/******************
+for page columns
+******************/
+
+.col {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  margin: 2%;
+}
+	}
+	
+@media (min-width: 910px) {
+	
+#logoPlaceholder {
+  width: 5%;	
+}
+
+.mobileNav {
+  width: 10%;	
+}
+	
+	}
+	
+@media (min-width: 1190px) {
+	
+.portItems {
+  width: 29%;	
+}
+
+#about {
+  background-image: url(../images/about.jpg);
+}
+
+#crmWebToEntityForm {
+  width: 60%;
+}
+	
+	}
+	
+@media (min-width: 1190px) {
+
+.title {	
+margin-top: .5%;
+}
+
+#logoPlaceholder {
+  width: 4.8%;
+  margin: 0 0 0 1%;
+  padding: .35%;
+  float: left;
+}
+
+.navLinks {
+  display: inline-block;
+  vertical-align: top;
+  width: 84%;
+  margin: 0 auto;
+  padding: 1% 0;
+  background: none;
+  
+}
+
+.mobileNav {
+  	display: none;
+}
+
+.navItem {
+  width: 15%;
+  display: inline-block;
+  margin: -2px;
+}
+
+.needsButton {
+  display: inline-block;
+  width: 15%;
+  margin: 0;
+}
+
+
+
+/**********************
+Services Pop-up-content
+***********************/
+
+
+.webPopUp,
+.webPopUp2 {
+  width: 70%;
+  left: 50%;
+  margin-left: -35%;
+  padding: 2%;	
+}
+
+.popUpButton {
+  width: 49%;
+  margin: 9% 0 0 0;
+  padding: 1%;
+  font-size: 1em;
+  border: none;
+  border-radius: 15px;
+}
+
+.popUpButton a {
+  display: block;	
+}
+
+.colWrapper {
+  width: 95%;
+  margin: 0 auto;	
+}
+
+
+/**********************
+About Section
+***********************/
+
+#aboutPlacement {
+  left: 36.5%;
+}
+	}
+	
+/******************************************
+DRY classes
+*******************************************/
+
+.show {
+  display: block;		
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;	
+}
+
+
+/******************************************
+Button styling.
+*******************************************/
+
+.button {
+  background: #18a6f0;
+  color: #fff;
+  border: none;
+}
+
+.button a {
+  display: block;	
+}
+
+.button:hover {
+  box-shadow: inset 0px 0px 3px #494a4a;
+  cursor: pointer;	
+}
+
+.button a:hover {
+  color: #363535;
+}
+
+/****************
+Thank You Pages
+*****************/
+
