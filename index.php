@@ -38,7 +38,7 @@
         </nav>
 
         <section id="services">
-              <div id="servicesPlacement">
+              <div id="servicesPlacement" class="clearfix">
     
                    <h1>Specialise in:</h1>
                    
