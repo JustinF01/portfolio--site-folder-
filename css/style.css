@@ -217,13 +217,31 @@ Services Section
 
 .printDesign,
 .webDesign {
-  width: 95%;
+  position: absolute;
+  width: 45%;
   margin: 10px auto;
   padding: 10px;
   text-align: center;
   border-radius: 10px;
   background-color: none;
-  transition: all ease-in-out 1s;
+  transition: all ease-in-out 2s;
+}
+
+.webDesign {
+  top: 20%;
+  left: -200px;
+  opacity: .1;
+}
+
+.printDesign {
+  top: 20%;
+  right: -200px;
+  opacity: .1;
+}
+.printDesign:hover,
+.webDesign:hover {
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.4);  
 }
 
 .printDesign img,
@@ -237,11 +255,7 @@ Services Section
   margin: 20px 0;
 }
 
-.printDesign:hover,
-.webDesign:hover {
-  cursor: pointer;
-  background-color: rgba(255,255,255,0.4);	
-}
+
 
 
 /******************************************
