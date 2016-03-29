@@ -10,6 +10,7 @@
     <title>Justin Fester | Designer | Developer</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Actor|Raleway:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/nomalize.css">
     <link rel="stylesheet" href="css/style.css"> 
     
   </head>
@@ -40,17 +41,20 @@
         <section id="services">
               <div id="servicesPlacement" class="clearfix">
     
-                   <h1>Specialise in:</h1>
+                   <h1>Design and Development</h1>
+                   <h3>Design and development services for professionals</h3>
                    
         
                    <section class="webDesign">
                          <h2>Web Design</h2>
                          <img src="images/computer.svg" alt="web design icon">
+                         <h2>Click For More Info</h2>
                    </section>
         
                    <section class="printDesign">
                          <h2>Graphic Design</h2>
                          <img src="images/printer.svg" alt="print design icon">
+                         <h2>Click For More Info</h2>
                    </section>
                    
                    <div class="webPopUp">
@@ -59,8 +63,8 @@
                      <hr>
                      <div class="colWrapper">
                          <div class="col">
-                             <p>A website is a powerful marketing tool. It’s a collection of marked-up documents that tell the unique story of an organisation or brand and is accessible to the world. It should be well structured and presented in a way that is pleasing and easy to navigate for interested users on various devices.</p>
-                             <p>A good website design promotes user engagement on all platforms. This allows for a websites documents  to have the best possible chance in reaching its intended audience and growing business equity.</p>
+                             <p>A web presence is a powerful and vital marketing tool in today's business environment. Your brand needs to represent a clear message to it's audience.</p>
+                             <p>A good web design promotes user engagement. It must be flexible in order to accomodate the various devices that exist in today's marketplace.</p>
                          </div>
                          <div class="col">
                              <p>Every job is special and unique. Let’s get the creative process going on your business. If you don’t have the time to make contact now,  fill out the basic needs analysis form and I will contact you to get the ball rolling.</p>
@@ -116,7 +120,7 @@
                         <p>Authenticity is at the core of what we do. We use our knowledge and expertise of design principles, SEO and web technology to help Small, Medium and Micro Enterprises(SMME) grow their brand equity through web and print design.</p>
                     </div>
                     <div class="col">
-                        <p>I look forward to every brief and love learning about new businesses and ideas. Every brief is unique but follows a similar creative process which involves gathering resources, research, planning, development and refinement.</p>
+                        <p>I look forward to woking with you and establishing a quality relationship in order to build on your business ideas. My goal is to become a trusted partner and asset to your businesses growth. My creative process involves gathering resources, research, planning, development and refinement.</p>
                         
                         <p>Thank you for visiting. I am sure it was for a reason. Let me know what that reason is by completing the basic needs analysis or contact form and i will be sure to get in touch.</p>
                         <p>Best Regards,</p>
@@ -142,15 +146,15 @@
               <div id="portPlacement">
                     <h1>Portfolio</h1>
                     <ul class="portfolioGallery">
-                        <li class="portItems"><a href="zandism.html"><img src="images/portfolio-items/zandism-screenshot.jpg" alt="portfolio item"></a><div class="portDesc">Website Development</div></li>
-                        <li class="portItems"><a href="uniledsa.html"><img src="images/portfolio-items/uniledsa-screenshot.jpg" alt="portfolio item"></a><div class="portDesc">Website Development</div></li>
-                        <li class="portItems"><a href="cab-foods.html"><img src="images/portfolio-items/cab-foods.png" alt="portfolio item"></a><div class="portDesc">Logo Vectorisation</div></li>
-                        <li class="portItems"><a href="anime.html"><img src="images/portfolio-items/Goku-Illustration.jpg" alt="anime character illustration"></a><div class="portDesc">Character Illustration</div></li>
-                        <li class="portItems"><a href="eagle.html"><img src="images/portfolio-items/eagle-illustration.jpg" alt="Illustration of eagle"></a><div class="portDesc">Illustration</div></li>
-                        <li class="portItems"><a href="movie-spoof.html"><img src="images/portfolio-items/Inception-spoof.gif" alt="Photoshop Photo Editing"></a><div class="portDesc">Photo Manipulation</div></li>
-                        <li class="portItems"><a href="for-keeps.html"><img src="images/portfolio-items/for-keeps-logo.png" alt="Logo Design"></a><div class="portDesc">Logo Design</div></li>
-                        <li class="portItems"><a href="rickson-gracie.html"><img src="images/portfolio-items/Rickson-Illustration.jpg" alt="Illustration Artwork Jiu Jitsu"></a><div class="portDesc">Illustration</div></li>
-                        <li class="portItems"><a href="phoenix.html"><img src="images/portfolio-items/pheonix-illustration.jpg" alt="Illustration Artwork"></a><div class="portDesc">Illustration</div></li>
+                        <li class="portItems" onfocus="hoverAnimate()"><img src="images/portfolio-items/zandism-screenshot.jpg" alt="portfolio item"><div class="portDesc"><a href="zandism.html">Website Development</a></div></li>
+                        <li class="portItems"><img src="images/portfolio-items/uniledsa-screenshot.jpg" alt="portfolio item"><div class="portDesc"><a href="uniledsa.html">Website Development</a></div></li>
+                        <li class="portItems"><img src="images/portfolio-items/cab-foods.png" alt="portfolio item"><div class="portDesc"><a href="cab-foods.html">Logo Vectorisation</a></div></li>
+                        <li class="portItems"><img src="images/portfolio-items/Goku-Illustration.jpg" alt="anime character illustration"><div class="portDesc"><a href="anime.html">Character Illustration</a></div></li>
+                        <li class="portItems"><img src="images/portfolio-items/eagle-illustration.jpg" alt="Illustration of eagle"><div class="portDesc"><a href="eagle.html">Illustration</a></div></li>
+                        <li class="portItems"><img src="images/portfolio-items/Inception-spoof.gif" alt="Photoshop Photo Editing"><div class="portDesc"><a href="movie-spoof.html">Photo Manipulation</a></div></li>
+                        <li class="portItems"><img src="images/portfolio-items/for-keeps-logo.png" alt="Logo Design"><div class="portDesc"><a href="for-keeps.html">Logo Design</a></div></li>
+                        <li class="portItems"><img src="images/portfolio-items/Rickson-Illustration.jpg" alt="Illustration Artwork Jiu Jitsu"><div class="portDesc"><a href="rickson-gracie.html">Illustration</a></div></li>
+                        <li class="portItems"><img src="images/portfolio-items/pheonix-illustration.jpg" alt="Illustration Artwork"><div class="portDesc"><a href="phoenix.html">Illustration</a></div></li>
                     </ul>
               </div>
         </section>
@@ -179,5 +183,6 @@
        </section>
     <script src="js/popups.js"></script>
   	<script src="js/mobileNav.js"></script>
+    <script src="js/portfolioFocus.js"></script>
   </body>
 </html>

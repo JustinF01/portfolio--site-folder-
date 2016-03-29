@@ -222,28 +222,28 @@ Services Section
   position: absolute;
   width: 95%;
   margin: 10px auto;
-  padding: 10px;
+  padding: 0 10% 0 0;
   text-align: center;
   border-radius: 10px;
-  background-color: none;
+  background: none;
   transition: all ease-in-out 1.2s;
 }
 
 .webDesign {
-  top: 150px;
+  top: 335px;
   left: -200px;
   opacity: .1;
 }
 
 .printDesign {
-  top: 750px;
+  top: 846px;
   right: -200px;
   opacity: .1;
+  padding: 0 0 0 10%;
 }
 .printDesign:hover,
 .webDesign:hover {
   cursor: pointer;
-  background-color: rgba(255,255,255,0.4);  
 }
 
 .printDesign img,
@@ -254,7 +254,7 @@ Services Section
 
 .printDesign h2,
 .webDesign h2 {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 
@@ -394,7 +394,6 @@ Portfolio Section
   padding: 3%;
   background: #fff;
   border-radius: 25px;
-  border: 2px solid #fff;
   box-shadow: 0px 0px 2px #333;
   overflow: hidden;
 }
@@ -410,15 +409,17 @@ Portfolio Section
   background-color: rgba(60, 69, 69, .8);
   color: #fff;
   text-align: center;	
+  transition: all 1.2s;
 }
 
-.portItems a {
+.portDesc a {
   display: block;
+  height: 100%;
   border-radius: 25px;	
 }
 
 .portItems:hover {
-  box-shadow: inset 0px 0px 200px #000;	
+  box-shadow: 0px 0px 20px #000;	
 }
 
 .portItems img {
@@ -619,10 +620,11 @@ Media Queries
 	
 .printDesign,
 .webDesign {
-  width: 45%;
-  margin: 2%;
+  width: 34%;
+  margin: 1%;
   padding: 4%;
   display: inline-block;
+  background: rgba(255,255,255,0.2);
 }
 
 .webPopUp,
@@ -638,8 +640,9 @@ Media Queries
   margin: 100px auto 40px;
 }
 
+.webDesign,
 .printDesign {
-  top: 150px;
+  top: 30%;
 }
 
 .mobileNav {
