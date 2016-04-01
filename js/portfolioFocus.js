@@ -4,7 +4,7 @@
      $('.portItems').hover(function() {
        $('.portDesc').css({
 	 	height: '100%',
-	 	borderRadius: 25
+	 	borderRadius: 23
 	   }) 
      }); // end of hover for portItems
 

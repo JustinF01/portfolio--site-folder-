@@ -33,7 +33,7 @@
                 <li class="navItem"><a href="#services">SERVICES</a></li>
                 <li class="navItem"><a href="#about">ABOUT</a></li>
                 <li class="navItem"><a href="#portfolio">PORTFOLIO</a></li>
-                <li class="navItem"><a href="#contact">CONTACT</a></li>
+                <li class="navItem"><a href="#contact">GET IN TOUCH</a></li>
                 <li class="needsButton button"><a href="needsAnalysis.php">Needs Analysis</a></li>
               </ul>   
         </nav>
@@ -114,7 +114,7 @@
               <div id="aboutPlacement" class="clearfix">
                     <h1>About</h1>
                     <div class="col">
-                        <p><strong>My name is Justin. I am a Designer, Developer and e-marketer who is passionate about the interconnectivity of the web.</strong></p>
+                        <p>My name is Justin. I am a Designer, Developer and e-marketer who is passionate about the interconnectivity of the web.</p>
                         
                         <p>I work with a team of skilled professionals, in a boutique environment, and offer brands a personalised design service.</p>
                         <p>Authenticity is at the core of what we do. We use our knowledge and expertise of design principles, SEO and web technology to help Small, Medium and Micro Enterprises(SMME) grow their brand equity through web and print design.</p>
@@ -122,7 +122,7 @@
                     <div class="col">
                         <p>I look forward to woking with you and establishing a quality relationship in order to build on your business ideas. My goal is to become a trusted partner and asset to your businesses growth. My creative process involves gathering resources, research, planning, development and refinement.</p>
                         
-                        <p>Thank you for visiting. I am sure it was for a reason. Let me know what that reason is by completing the basic needs analysis or contact form and i will be sure to get in touch.</p>
+                        <p>Thank you for visiting. If there is anything that I can help you with, be sure to complete the short Needs Analysis and I will get back to you.</p>
                         <p>Best Regards,</p>
                         <p class="name">Justin Fester<br>Design Consultant</p><span class="sig"><img src="images/sig.svg" alt="Justin Fester|Design Consultant"></span>
                     </div>
@@ -136,7 +136,7 @@
                           </div>
                  
                           <div class="aboutNavigateButton button">
-                            <p><a href="#contact">Contact</a></p>
+                            <p><a href="#contact">Get In Touch</a></p>
                           </div>
                   </section>
                   </div>
@@ -146,7 +146,7 @@
               <div id="portPlacement">
                     <h1>Portfolio</h1>
                     <ul class="portfolioGallery">
-                        <li class="portItems" onfocus="hoverAnimate()"><img src="images/portfolio-items/zandism-screenshot.jpg" alt="portfolio item"><div class="portDesc"><a href="zandism.html">Website Development</a></div></li>
+                        <li class="portItems"><img src="images/portfolio-items/zandism-screenshot.jpg" alt="portfolio item"><div class="portDesc"><a href="zandism.html">Website Development</a></div></li>
                         <li class="portItems"><img src="images/portfolio-items/uniledsa-screenshot.jpg" alt="portfolio item"><div class="portDesc"><a href="uniledsa.html">Website Development</a></div></li>
                         <li class="portItems"><img src="images/portfolio-items/cab-foods.png" alt="portfolio item"><div class="portDesc"><a href="cab-foods.html">Logo Vectorisation</a></div></li>
                         <li class="portItems"><img src="images/portfolio-items/Goku-Illustration.jpg" alt="anime character illustration"><div class="portDesc"><a href="anime.html">Character Illustration</a></div></li>

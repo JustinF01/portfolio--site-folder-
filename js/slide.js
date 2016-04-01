@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	
 $('.webDesign').css({
 	left: '10%',
 	opacity: 1
