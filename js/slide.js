@@ -1,12 +1,12 @@
 $(document).ready(function() {
 	
 $('.webDesign').css({
-	left: '10%',
+	left: '17%',
 	opacity: 1
 });
 
 $('.printDesign').css({
-	right: '10%',
+	right: '17%',
 	opacity: 1
 });
 
