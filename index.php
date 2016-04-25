@@ -37,78 +37,6 @@
                 <li class="needsButton button"><a href="needsAnalysis.php">Needs Analysis</a></li>
               </ul>   
         </nav>
-
-        <section id="services">
-              <div id="servicesPlacement" class="clearfix">
-    
-                   <h1>Design and Development</h1>
-                   <h3>Design and development services for professionals</h3>
-                   
-        
-                   <section class="webDesign">
-                         <h2>Web Design</h2>
-                         <img src="images/computer.svg" alt="web design icon">
-                         <h2>Click For More Info</h2>
-                   </section>
-        
-                   <section class="printDesign">
-                         <h2>Graphic Design</h2>
-                         <img src="images/printer.svg" alt="print design icon">
-                         <h2>Click For More Info</h2>
-                   </section>
-                   
-                   <div class="webPopUp">
-                   
-                     <span class="serviceIcon"><img src="images/gear.svg" alt="Web Development Service"></span><h2 id="popUpHeading1">Quality Web Design, Development Service</h2>
-                     <hr>
-                     <div class="colWrapper">
-                         <div class="col">
-                             <p>A web presence is a powerful and vital marketing tool in today's business environment. Your brand needs to represent a clear message to it's audience.</p>
-                             <p>A good web design promotes user engagement. It must be flexible in order to accomodate the various devices that exist in today's marketplace.</p>
-                         </div>
-                         <div class="col">
-                             <p>Every job is special and unique. Let’s get the creative process going on your business. If you don’t have the time to make contact now,  fill out the basic needs analysis form and I will contact you to get the ball rolling.</p>
-                             <ul>
-                             	<li>Website Mock-Ups</li>
-                                <li>Website Development</li>
-                                <li>UI/UX design</li>
-                                <li>Responsive design - for mobile devices</li>
-                                <li>Semantic markup(on-page optimisation)</li>
-                             </ul>
-                             <a href="#contact"><button class="button popUpButton">Get In Touch</button></a>
-                             <a href="needsAnalysis.php"><button class="button popUpButton">Needs Analysis</button></a>
-                         </div>
-                     </div>
-                     <button class="closeWindow">x</button>
-                   </div>
-                   
-                   <div class="webPopUp2">
-                     <span class="serviceIcon"><img src="images/pencil.svg" alt="Graphic Design Service"></span><h2 id="popUpHeading2">Attention-grabbing Graphic Design</h2>
-                     <hr>
-                     <div class="colWrapper">
-                         <div class="col">
-                           <p>Graphic design is the art of combining icons, images, space, typography and colour in order to illustrate a message or an idea. Great design acts as the glue that bonds an audience to a piece of content. Even the most complex systems need to be presented in a way that is simple, pleasing and easy to understand.</p>
-                           <p>Allow a team of passionate designers to work on your marketing material in order for your content to be highly regarded in the minds of your audience. Well designed content has proven itself as an essential aspect of a brands positioning in a market.</p>
-                         </div>
-                         <div class="col">
-                             <p> Let’s work on your look and feel. Contact us for more information or make sure to complete the “no-fuss” needs analysis form and I will get in touch with you.</p>
-                             <ul>
-                             	<li>Logo Design</li>
-                                <li>Illustration</li>
-                                <li>Corporate Identity(Business Cards, Flyers..)</li>
-                                <li>Corporate Gifts</li>
-                                <li>Banners/Signage</li>
-                             </ul>
-                             <a href="#contact"><button class="button popUpButton">Get In Touch</button></a>
-                             <a href="needsAnalysis.php"><button class="button popUpButton">Needs Analysis</button></a>
-                         </div>
-                     </div>
-                     <button class="closeWindow">x</button>
-                   </div>
-       
-    
-             </div>
-        </section>
     
         <section id="about">
               <div id="aboutPlacement" class="clearfix">
@@ -139,7 +67,79 @@
                             <p><a href="#contact">Get In Touch</a></p>
                           </div>
                   </section>
-                  </div>
+              </div>
+        </section>
+
+         <section id="services">
+              <div id="servicesPlacement" class="clearfix">
+    
+                   <h1>Design and Development</h1>
+                   <h3>Design and development services for professionals</h3>
+                   
+        
+                   <section class="webDesign">
+                         <h2>Web Design</h2>
+                         <img src="images/computer.svg" alt="web design icon">
+                         <h2>Click For More Info</h2>
+                   </section>
+        
+                   <section class="printDesign">
+                         <h2>Graphic Design</h2>
+                         <img src="images/printer.svg" alt="print design icon">
+                         <h2>Click For More Info</h2>
+                   </section>
+                   
+                   <div class="webPopUp">
+                   
+                     <span class="serviceIcon"><img src="images/gear.svg" alt="Web Development Service"></span><h2 id="popUpHeading1">Quality Web Design, Development Service</h2>
+                     <hr>
+                     <div class="colWrapper">
+                         <div class="col">
+                             <p>A web presence is a powerful and vital marketing tool in today's business environment. Your brand needs to represent a clear message to it's audience.</p>
+                             <p>A good web design promotes user engagement. It must be flexible in order to accomodate the various devices that exist in today's marketplace.</p>
+                         </div>
+                         <div class="col">
+                             <p>Every job is special and unique. Let’s get the creative process going on your business. If you don’t have the time to make contact now,  fill out the basic needs analysis form and I will contact you to get the ball rolling.</p>
+                             <ul>
+                              <li>Website Mock-Ups</li>
+                                <li>Website Development</li>
+                                <li>UI/UX design</li>
+                                <li>Responsive design - for mobile devices</li>
+                                <li>Semantic markup(on-page optimisation)</li>
+                             </ul>
+                             <a href="#contact"><button class="button popUpButton">Get In Touch</button></a>
+                             <a href="needsAnalysis.php"><button class="button popUpButton">Needs Analysis</button></a>
+                         </div>
+                     </div>
+                     <button class="closeWindow">x</button>
+                   </div>
+                   
+                   <div class="webPopUp2">
+                     <span class="serviceIcon"><img src="images/pencil.svg" alt="Graphic Design Service"></span><h2 id="popUpHeading2">Attention-grabbing Graphic Design</h2>
+                     <hr>
+                     <div class="colWrapper">
+                         <div class="col">
+                           <p>Graphic design is the art of combining icons, images, space, typography and colour in order to illustrate a message or an idea. Great design acts as the glue that bonds an audience to a piece of content. Even the most complex systems need to be presented in a way that is simple, pleasing and easy to understand.</p>
+                           <p>Allow a team of passionate designers to work on your marketing material in order for your content to be highly regarded in the minds of your audience. Well designed content has proven itself as an essential aspect of a brands positioning in a market.</p>
+                         </div>
+                         <div class="col">
+                             <p> Let’s work on your look and feel. Contact us for more information or make sure to complete the “no-fuss” needs analysis form and I will get in touch with you.</p>
+                             <ul>
+                              <li>Logo Design</li>
+                                <li>Illustration</li>
+                                <li>Corporate Identity(Business Cards, Flyers..)</li>
+                                <li>Corporate Gifts</li>
+                                <li>Banners/Signage</li>
+                             </ul>
+                             <a href="#contact"><button class="button popUpButton">Get In Touch</button></a>
+                             <a href="needsAnalysis.php"><button class="button popUpButton">Needs Analysis</button></a>
+                         </div>
+                     </div>
+                     <button class="closeWindow">x</button>
+                   </div>
+       
+    
+             </div>
         </section>
 
         <section id="portfolio">
@@ -183,6 +183,5 @@
        </section>
     <script src="js/popups.js"></script>
   	<script src="js/mobileNav.js"></script>
-    <script src="js/portfolioFocus.js"></script>
   </body>
 </html>

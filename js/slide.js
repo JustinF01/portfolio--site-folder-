@@ -1,4 +1,6 @@
 $(document).ready(function() {
+$(window).scroll({offsetY: 1250},function() {
+
 	
 $('.webDesign').css({
 	left: '17%',
@@ -10,4 +12,8 @@ $('.printDesign').css({
 	opacity: 1
 });
 
+
+
+});
 }); //end of document.ready function
+

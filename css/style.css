@@ -208,7 +208,7 @@ Services Section
 #services {
   position: relative;
   height: 1400px;
-  background-image: url("../images/table-mountain.jpg");
+  background-image: url(../images/table-mountain.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -374,9 +374,9 @@ Portfolio Section
 
 
 #portfolio {
-  background: url("../images/beach.jpg");
-  background-size: cover;
-  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  background: #FF791D;
 }
 
 .portfolioGallery {
@@ -624,7 +624,6 @@ Media Queries
   margin: 1%;
   padding: 1%;
   display: inline-block;
-  background: rgba(255,255,255,0.2);
 }
 
 .webPopUp,
@@ -728,7 +727,7 @@ About Section
   top: 0;
   left: 30px;
   margin: 0 auto;
-  padding: 3%;
+  padding: 5%;
   line-height: 1.85;
   border-radius: 25px;
 }
