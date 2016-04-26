@@ -6,11 +6,11 @@
     <meta name="description" content="The exclusive web and graphic design portfolio, Brought to you by Justin Fester and his team of designers." />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="js/slide.js"></script>
     <title>Justin Fester | Designer | Developer</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Actor|Raleway:400,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/nomalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/nomalise.css">
     <link rel="stylesheet" href="css/style.css"> 
     
   </head>
@@ -52,7 +52,7 @@
                         
                         <p>Thank you for visiting. If there is anything that I can help you with, be sure to complete the short Needs Analysis and I will get back to you.</p>
                         <p>Best Regards,</p>
-                        <p class="name">Justin Fester<br>Design Consultant</p><span class="sig"><img src="images/sig.svg" alt="Justin Fester|Design Consultant"></span>
+                        <p class="name">Justin Fester<br>Designer</p><span class="sig"><img src="images/sig.svg" alt="Justin Fester|Design Consultant"></span>
                     </div>
                     <section id="aboutNavigate">
                           <div class="aboutNavigateButton button">
@@ -71,25 +71,12 @@
         </section>
 
          <section id="services">
-              <div id="servicesPlacement" class="clearfix">
-    
-                   <h1>Design and Development</h1>
-                   <h3>Design and development services for professionals</h3>
-                   
-        
-                   <section class="webDesign">
-                         <h2>Web Design</h2>
-                         <img src="images/computer.svg" alt="web design icon">
-                         <h2>Click For More Info</h2>
-                   </section>
-        
-                   <section class="printDesign">
-                         <h2>Graphic Design</h2>
-                         <img src="images/printer.svg" alt="print design icon">
-                         <h2>Click For More Info</h2>
-                   </section>
-                   
-                   <div class="webPopUp">
+         <div class="service-header">
+              <h1>Local Design and Development Service</h1>
+              <p>If you're an entrepreneur or business, looking for a website to be designed or developed or any other corporate identity design, I can help.</p>
+         </div>
+         <div id="servicesPlacement" class="clearfix">
+            <div class="webPopUp">
                    
                      <span class="serviceIcon"><img src="images/gear.svg" alt="Web Development Service"></span><h2 id="popUpHeading1">Quality Web Design, Development Service</h2>
                      <hr>
@@ -137,6 +124,19 @@
                      </div>
                      <button class="closeWindow">x</button>
                    </div>
+            <section class="webDesign">
+               <h2>Web Design</h2>
+               <img src="images/computer.svg" alt="web design icon">
+               <div class="read-more">Learn More</div>
+            </section>
+        
+             <section class="printDesign">
+                <h2>Graphic Design</h2>
+                <img src="images/printer.svg" alt="print design icon">
+                <div class="read-more">Learn More</div>
+             </section>
+                   
+                   
        
     
              </div>
@@ -146,8 +146,9 @@
               <div id="portPlacement">
                     <h1>Portfolio</h1>
                     <ul class="portfolioGallery">
-                        <li class="portItems"><img src="images/portfolio-items/zandism-screenshot.jpg" alt="portfolio item"><div class="portDesc"><a href="zandism.html">Website Development</a></div></li>
-                        <li class="portItems"><img src="images/portfolio-items/uniledsa-screenshot.jpg" alt="portfolio item"><div class="portDesc"><a href="uniledsa.html">Website Development</a></div></li>
+                        <li class="portItems"><img src="images/portfolio-items/business-league.png" alt="portfolio item"><div class="portDesc"><a href="business-league.html">Website Development</a></div></li>
+                        <li class="portItems"><img src="images/portfolio-items/zandism.png" alt="portfolio item"><div class="portDesc"><a href="zandism.html">Website Development</a></div></li>
+                        <li class="portItems"><img src="images/portfolio-items/uniledsa.png" alt="portfolio item"><div class="portDesc"><a href="uniledsa.html">Website Development</a></div></li>
                         <li class="portItems"><img src="images/portfolio-items/cab-foods.png" alt="portfolio item"><div class="portDesc"><a href="cab-foods.html">Logo Vectorisation</a></div></li>
                         <li class="portItems"><img src="images/portfolio-items/Goku-Illustration.jpg" alt="anime character illustration"><div class="portDesc"><a href="anime.html">Character Illustration</a></div></li>
                         <li class="portItems"><img src="images/portfolio-items/eagle-illustration.jpg" alt="Illustration of eagle"><div class="portDesc"><a href="eagle.html">Illustration</a></div></li>
@@ -183,5 +184,6 @@
        </section>
     <script src="js/popups.js"></script>
   	<script src="js/mobileNav.js"></script>
+    <script src="js/fixed-nav.js"></script>
   </body>
 </html>

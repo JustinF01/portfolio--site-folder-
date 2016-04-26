@@ -32,7 +32,8 @@ input:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Actor', sans-serif;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300;
 }
 
 h1 {
@@ -57,7 +58,7 @@ h4 {
 #contact {
   width: 100%;
   margin: 0;
-  padding: 2%;
+  padding: 0;
   text-align: center;
 }
 
@@ -67,14 +68,12 @@ h4 {
 #contactPlacement,
 .portItemWrapper {
   max-width: 1020px;
+  width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 7% 1% 1%;
+  padding: 7% 4% 4%;
 }
 
-#servicesPlacement {
-  padding: 0;	
-}
 
 #contactPlacement {
   padding-bottom: 50px;	
@@ -109,14 +108,12 @@ Main Navigation Styling
 
 #mainNav {
   width: 100%;
-  height: 12vh;
+  height: auto;
   margin: 0;
   padding: 0;
   display: block;
-  background: rgba(95, 92, 92, .95);
-  position: fixed;
-  top: 0;
-  z-index: 1000;
+  background: rgba(95, 92, 92, 1);
+
 }
 
 .mobileNav {
@@ -207,10 +204,16 @@ Services Section
 
 #services {
   position: relative;
-  height: 1400px;
+  height: auto;
+}
+
+.service-header {
+  padding: 2%;
   background-image: url(../images/table-mountain.jpg);
   background-size: cover;
   background-attachment: fixed;
+  color: #fff;
+  font-size: 120%;
 }
 
 #services h1 {
@@ -219,28 +222,13 @@ Services Section
 
 .printDesign,
 .webDesign {
-  position: absolute;
-  width: 95%;
-  margin: 10px auto;
-  padding: 0 10% 0 0;
+  width: 100%;
+  margin: 5% 0;
+  padding: 5%;
   text-align: center;
   border-radius: 10px;
-  background: none;
-  transition: all ease-in-out 1.2s;
 }
 
-.webDesign {
-  top: 335px;
-  left: -200px;
-  opacity: .1;
-}
-
-.printDesign {
-  top: 846px;
-  right: -200px;
-  opacity: .1;
-  padding: 0 0 0 10%;
-}
 .printDesign:hover,
 .webDesign:hover {
   cursor: pointer;
@@ -252,9 +240,14 @@ Services Section
   height: auto;
 }
 
-.printDesign h2,
-.webDesign h2 {
-  margin: 10px 0;
+.read-more {
+  width: 80%;
+  margin: 2% auto;
+  padding: 2%;
+  background-color: #FF791D;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
 }
 
 
@@ -276,6 +269,7 @@ The popup content in the services section.
   display: none;
   top: 14vh;
   left: 50%;
+  box-shadow: 0 2px 5px #333;
   transition: display ease-in-out .1s;	
 }
 
@@ -375,23 +369,24 @@ Portfolio Section
 
 #portfolio {
   margin: 0;
-  padding: 0;
-  background: #FF791D;
+  padding: 0 0 4% 0;
+  background-image: url(../images/portfolio-bg.svg);
+  background-attachment: fixed;
 }
 
 .portfolioGallery {
   list-style: none;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 5%;
   text-align: center;
 }
 
 .portItems {
   position: relative;
   width: 100%;
-  margin: 2% auto;
-  padding: 3%;
+  margin: 5% auto;
+  padding: 0;
   background: #fff;
   border-radius: 25px;
   box-shadow: 0px 0px 2px #333;
@@ -497,6 +492,10 @@ Individual Portfolio Item Pages
 /***********************
 Contact Section
 ***********************/
+
+#contactForm {
+  padding: 5%;
+}
 
 
 #contactForm input,
@@ -620,7 +619,7 @@ Media Queries
 	
 .printDesign,
 .webDesign {
-  width: 27%;
+  width: 45%;
   margin: 1%;
   padding: 1%;
   display: inline-block;
@@ -631,18 +630,11 @@ Media Queries
   top: 25%;
 }
 
-#services {
-  height: 700px;
-}
 
 #services h1 {
   margin: 100px auto 40px;
 }
 
-.webDesign,
-.printDesign {
-  top: 30%;
-}
 
 .mobileNav {
   	width: 12%;
@@ -683,10 +675,10 @@ General page styling
   text-shadow: 0 0 4px #000;	
 }
 
-#services,
+
 #about,
 #contact {
-  height: 1020px;
+  height: 819px;
 }
 
 #aboutPlacement,
@@ -724,22 +716,20 @@ About Section
 
 #aboutPlacement {
   position: absolute;
-  top: 0;
+  top: 50;
   left: 30px;
-  margin: 0 auto;
-  padding: 5%;
-  line-height: 1.85;
   border-radius: 25px;
 }
 
 #aboutPlacement h1 {
-  margin: 2%;
+  margin: 0;
 }
 
 #aboutNavigate {
   width: 100%;
   margin: 0;	
 }
+
 
 /******************************
 Individual Portfolio Item Pages
@@ -761,7 +751,7 @@ Individual Portfolio Item Pages
 }
 
 .portItemWrapper {
-  padding-top: 10%; 	
+  padding-top: 1%; 	
 }
 
 /***************
@@ -874,7 +864,7 @@ for page columns
 	
 	}
 	
-@media (min-width: 1190px) {
+@media (min-width: 1360px) {
 
 .title {	
 margin-top: .5%;
@@ -970,6 +960,12 @@ DRY classes
   clear: both;	
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
 
 /******************************************
 Button styling.

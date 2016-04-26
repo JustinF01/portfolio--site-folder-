@@ -3,12 +3,12 @@ $(window).scroll({offsetY: 1250},function() {
 
 	
 $('.webDesign').css({
-	left: '17%',
+	left: '6%',
 	opacity: 1
 });
 
 $('.printDesign').css({
-	right: '17%',
+	right: '6%',
 	opacity: 1
 });
 
