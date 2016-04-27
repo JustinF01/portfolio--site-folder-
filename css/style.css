@@ -62,7 +62,7 @@ h4 {
   text-align: center;
 }
 
-#aboutPlacement,
+
 #servicesPlacement,
 #portPlacement,
 #contactPlacement,
@@ -72,6 +72,13 @@ h4 {
   height: auto;
   margin: 0 auto;
   padding: 7% 4% 4%;
+}
+
+#aboutPlacement {
+  max-width: 834px;
+  width: 100%;
+  padding: 5%;
+  height: auto;
 }
 
 
@@ -180,7 +187,7 @@ Main Navigation Styling
 }
 
 .navItem a:hover {
-  color: #09b6f6;
+  color: #00B2A6;
 }
 
 .needsButton {
@@ -265,12 +272,17 @@ The popup content in the services section.
   margin-left: -50%;
   text-align: left;
   background: #f4f6f6;
-  padding: 5%;
+  padding: 0;
   display: none;
   top: 14vh;
   left: 50%;
   box-shadow: 0 2px 5px #333;
   transition: display ease-in-out .1s;	
+}
+
+.webPopUp p,
+.webPopUp2 p {
+  padding: 0 5%;
 }
 
 .webPopUp2 {
@@ -283,16 +295,24 @@ The popup content in the services section.
   width: 87%;
   margin-left: 3%;
   padding-top: 1%;
-  vertical-align: top;	
+  vertical-align: top;
+  color: white;
+  text-shadow: 0 0 6px #333;	
 }
 
 .popUpButton {
   width: 100%;
-  height: 50px;
+  height: 42px;
   margin: 2% auto;
   font-size: 1.125em;
   border: none;
   border-radius: 15px;
+}
+
+.popup-header {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/portfolio-bg.svg);
 }
 
 .popUpButton a {
@@ -306,7 +326,7 @@ The popup content in the services section.
  padding: .3%;
  top: 1em;
  left: 88%;
- color: #333;
+ color: #fff;
  font-size: 1.45em;
  border: none;
  background: none;
@@ -326,9 +346,9 @@ About Section
 
 .aboutNavigateButton {
 	position: relative;
-  	width: 100%;
-	height: 50px;
-	border-radius: 18px;
+  width: 100%;
+	height: 45px;
+	border-radius: 10px;
 	margin: 2% auto;
 	padding: 2.5%;
 	display: block;
@@ -507,31 +527,40 @@ Contact Section
 #contactForm input[type=submit] {
   width: 100%;
   height: 55px;
-  margin: 5% auto;
+  margin: -1% auto;
   border: none;
   border-radius: 10px;
   font-size: 1.5em;
-  text-transform: uppercase;	
+  text-transform: uppercase;
+  float: right;
+  -webkit-appearance: none;	
 }
 
 #contactInfo {
   margin: 1%;
-  padding: 3%;
+  padding: 0;
   text-align: left;	
 }
 
-#contactInfo img {
-  display: inline-block;
-  width: 30%;
-  height: auto;
-}
 
 #contactInfo a {
-  color: #09b6f6;	
+  color: #00B2A6;	
 }
 
 #contactInfo h1 {
   text-align: center;	
+}
+
+.social-link {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
+.social-link img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -645,7 +674,7 @@ Media Queries
 }
 
 .aboutNavigateButton {
-  	width: 30%;
+  width: 30%;
 	margin: 2% 1.1%;
 	padding: 1%;
 	display: inline-block;
@@ -681,13 +710,18 @@ General page styling
   height: 819px;
 }
 
-#aboutPlacement,
+
 #servicesPlacement,
 #portPlacement,
 #contactPlacement,
 .portItemWrapper {
   margin: 0 auto;
   padding: 2% 1% 1%;
+  text-align: left;
+}
+
+#aboutPlacement {
+  padding: 0;
   text-align: left;
 }
 
@@ -726,8 +760,8 @@ About Section
 }
 
 #aboutNavigate {
-  width: 100%;
-  margin: 0;	
+  width: 85%;
+  margin: 0 auto;	
 }
 
 
@@ -791,7 +825,7 @@ form textarea {
 
 #contactForm {
   width: 65%;
-  margin: 4% 0 0 0;	
+  margin: 0;	
 }
 
 #contactInfo {
@@ -831,8 +865,8 @@ for page columns
 .col {
   display: inline-block;
   vertical-align: top;
-  width: 45%;
-  margin: 2%;
+  width: 47%;
+  margin: 0 0 0 2%;
 }
 	}
 	
@@ -915,12 +949,12 @@ Services Pop-up-content
   width: 70%;
   left: 50%;
   margin-left: -35%;
-  padding: 2%;	
+  padding: 0;	
 }
 
 .popUpButton {
-  width: 49%;
-  margin: 9% 0 0 0;
+  width: 35%;
+  margin: 6%;
   padding: 1%;
   font-size: 1em;
   border: none;
@@ -972,9 +1006,10 @@ Button styling.
 *******************************************/
 
 .button {
-  background: #18a6f0;
+  background: #00B2A6;
   color: #fff;
   border: none;
+  -webkit-appearance: none;
 }
 
 .button a {

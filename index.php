@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="website development services, web development, web design, graphic design, design portfolio, justin fester, design" />
     <meta name="description" content="The exclusive web and graphic design portfolio, Brought to you by Justin Fester and his team of designers." />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <title>Justin Fester | Designer | Developer</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -77,9 +77,9 @@
          </div>
          <div id="servicesPlacement" class="clearfix">
             <div class="webPopUp">
-                   
-                     <span class="serviceIcon"><img src="images/gear.svg" alt="Web Development Service"></span><h2 id="popUpHeading1">Quality Web Design, Development Service</h2>
-                     <hr>
+                   <div class="popup-header">
+                       <h2 id="popUpHeading1">Quality Web Development Service</h2>
+                   </div>
                      <div class="colWrapper">
                          <div class="col">
                              <p>A web presence is a powerful and vital marketing tool in today's business environment. Your brand needs to represent a clear message to it's audience.</p>
@@ -102,8 +102,9 @@
                    </div>
                    
                    <div class="webPopUp2">
-                     <span class="serviceIcon"><img src="images/pencil.svg" alt="Graphic Design Service"></span><h2 id="popUpHeading2">Attention-grabbing Graphic Design</h2>
-                     <hr>
+                     <div class="popup-header">
+                       <h2 id="popUpHeading2">Attention-grabbing Graphic Design</h2>
+                     </div>
                      <div class="colWrapper">
                          <div class="col">
                            <p>Graphic design is the art of combining icons, images, space, typography and colour in order to illustrate a message or an idea. Great design acts as the glue that bonds an audience to a piece of content. Even the most complex systems need to be presented in a way that is simple, pleasing and easy to understand.</p>
@@ -176,9 +177,9 @@
                           <p>E-mail: <a href="mailto:justin@designbiz.co.za">justin@designbiz.co.za</a></p>
                           <p>Twitter: @Justin_Fester</p>
                           <p>Skype: justin.fester1</p>
-                          <a href="https://www.facebook.com/justindesignstudio" target="_blank"><img src="images/facebook.svg" alt="facebook page"></a>
-                          <a href="https://twitter.com/Justin_Fester" target="_blank"><img src="images/twitter.svg" alt="twitter profile"></a>
-                          <a href="http://www.linkedin.com/in/justin-fester-1466283a?trk=nav_responsive_tab_profile" target="_blank"><img src="images/linkedin.svg" alt="linkedIn Profile"></a>
+                          <a href="https://www.facebook.com/justindesignstudio" target="_blank" class="social-link"><img src="images/facebook.svg" alt="facebook page"></a>
+                          <a href="https://twitter.com/Justin_Fester" target="_blank" class="social-link"><img src="images/twitter.svg" alt="twitter profile"></a>
+                          <a href="http://www.linkedin.com/in/justin-fester-1466283a?trk=nav_responsive_tab_profile" target="_blank" class="social-link"><img src="images/linkedin.svg" alt="linkedIn Profile"></a>
                     </section>
              </div>
        </section>

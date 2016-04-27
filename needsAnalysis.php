@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="website development services, web development, web design, graphic design, design portfolio, justin fester, design" />
     <meta name="description" content="The exclusive web and graphic design portfolio, Brought to you by Justin Fester and his team of designers." />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <title>Justin Fester|Designer|Developer</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
