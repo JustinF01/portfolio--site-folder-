@@ -32,7 +32,8 @@ input:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Actor', sans-serif;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300;
 }
 
 h1 {
@@ -57,24 +58,29 @@ h4 {
 #contact {
   width: 100%;
   margin: 0;
-  padding: 2%;
+  padding: 0;
   text-align: center;
 }
 
-#aboutPlacement,
+
 #servicesPlacement,
 #portPlacement,
 #contactPlacement,
 .portItemWrapper {
   max-width: 1020px;
+  width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 7% 1% 1%;
+  padding: 7% 4% 4%;
 }
 
-#servicesPlacement {
-  padding: 0;	
+#aboutPlacement {
+  max-width: 834px;
+  width: 100%;
+  padding: 5%;
+  height: auto;
 }
+
 
 #contactPlacement {
   padding-bottom: 50px;	
@@ -109,13 +115,12 @@ Main Navigation Styling
 
 #mainNav {
   width: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
   display: block;
-  background: rgba(95, 92, 92, .95);
-  position: fixed;
-  top: 0;
-  z-index: 1000;
+  background: rgba(95, 92, 92, 1);
+
 }
 
 .mobileNav {
@@ -182,7 +187,7 @@ Main Navigation Styling
 }
 
 .navItem a:hover {
-  color: #09b6f6;
+  color: #00B2A6;
 }
 
 .needsButton {
@@ -206,9 +211,16 @@ Services Section
 
 #services {
   position: relative;
-  background-image: url("../images/table-mountain.jpg");
+  height: auto;
+}
+
+.service-header {
+  padding: 2%;
+  background-image: url(../images/table-mountain.jpg);
   background-size: cover;
   background-attachment: fixed;
+  color: #fff;
+  font-size: 120%;
 }
 
 #services h1 {
@@ -217,13 +229,16 @@ Services Section
 
 .printDesign,
 .webDesign {
-  width: 95%;
-  margin: 10px auto;
-  padding: 10px;
+  width: 100%;
+  margin: 5% 0;
+  padding: 5%;
   text-align: center;
   border-radius: 10px;
-  background-color: none;
-  transition: all ease-in-out 1s;
+}
+
+.printDesign:hover,
+.webDesign:hover {
+  cursor: pointer;
 }
 
 .printDesign img,
@@ -232,16 +247,17 @@ Services Section
   height: auto;
 }
 
-.printDesign h2,
-.webDesign h2 {
-  margin: 20px 0;
+.read-more {
+  width: 80%;
+  margin: 2% auto;
+  padding: 2%;
+  background-color: #FF791D;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
 }
 
-.printDesign:hover,
-.webDesign:hover {
-  cursor: pointer;
-  background-color: rgba(255,255,255,0.4);	
-}
+
 
 
 /******************************************
@@ -252,18 +268,25 @@ The popup content in the services section.
 .webPopUp,
 .webPopUp2 {
   position: absolute;
-  width: 95%;
-  margin-left: -47.5%;
+  width: 100%;
+  margin-left: -50%;
   text-align: left;
   background: #f4f6f6;
-  border-radius: 15px;
-  padding: 5%;
+  padding: 0;
   display: none;
-  top: 30vh;
+  top: 14vh;
   left: 50%;
-  box-shadow: 0px 0px 10px #000;
-  -webkit-transition: display ease-in-out .1s;
+  box-shadow: 0 2px 5px #333;
   transition: display ease-in-out .1s;	
+}
+
+.webPopUp p,
+.webPopUp2 p {
+  padding: 0 5%;
+}
+
+.webPopUp2 {
+  top: 90vh;
 }
 
 #popUpHeading1,
@@ -272,16 +295,24 @@ The popup content in the services section.
   width: 87%;
   margin-left: 3%;
   padding-top: 1%;
-  vertical-align: top;	
+  vertical-align: top;
+  color: white;
+  text-shadow: 0 0 6px #333;	
 }
 
 .popUpButton {
   width: 100%;
-  height: 50px;
+  height: 42px;
   margin: 2% auto;
   font-size: 1.125em;
   border: none;
   border-radius: 15px;
+}
+
+.popup-header {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/portfolio-bg.svg);
 }
 
 .popUpButton a {
@@ -295,7 +326,7 @@ The popup content in the services section.
  padding: .3%;
  top: 1em;
  left: 88%;
- color: #333;
+ color: #fff;
  font-size: 1.45em;
  border: none;
  background: none;
@@ -315,9 +346,9 @@ About Section
 
 .aboutNavigateButton {
 	position: relative;
-  	width: 100%;
-	height: 50px;
-	border-radius: 18px;
+  width: 100%;
+	height: 45px;
+	border-radius: 10px;
 	margin: 2% auto;
 	padding: 2.5%;
 	display: block;
@@ -357,8 +388,9 @@ Portfolio Section
 
 
 #portfolio {
-  background: url("../images/beach.jpg");
-  background-size: cover;
+  margin: 0;
+  padding: 0 0 4% 0;
+  background-image: url(../images/portfolio-bg.svg);
   background-attachment: fixed;
 }
 
@@ -366,18 +398,17 @@ Portfolio Section
   list-style: none;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 5%;
   text-align: center;
 }
 
 .portItems {
   position: relative;
   width: 100%;
-  margin: 2% auto;
-  padding: 3%;
+  margin: 5% auto;
+  padding: 0;
   background: #fff;
   border-radius: 25px;
-  border: 2px solid #fff;
   box-shadow: 0px 0px 2px #333;
   overflow: hidden;
 }
@@ -393,15 +424,17 @@ Portfolio Section
   background-color: rgba(60, 69, 69, .8);
   color: #fff;
   text-align: center;	
+  transition: all 1.2s;
 }
 
-.portItems a {
+.portDesc a {
   display: block;
+  height: 100%;
   border-radius: 25px;	
 }
 
 .portItems:hover {
-  box-shadow: inset 0px 0px 200px #000;	
+  box-shadow: 0px 0px 20px #000;	
 }
 
 .portItems img {
@@ -480,6 +513,10 @@ Individual Portfolio Item Pages
 Contact Section
 ***********************/
 
+#contactForm {
+  padding: 5%;
+}
+
 
 #contactForm input,
 #contactForm textarea {
@@ -490,31 +527,40 @@ Contact Section
 #contactForm input[type=submit] {
   width: 100%;
   height: 55px;
-  margin: 5% auto;
+  margin: -1% auto;
   border: none;
   border-radius: 10px;
   font-size: 1.5em;
-  text-transform: uppercase;	
+  text-transform: uppercase;
+  float: right;
+  -webkit-appearance: none;	
 }
 
 #contactInfo {
   margin: 1%;
-  padding: 3%;
+  padding: 0;
   text-align: left;	
 }
 
-#contactInfo img {
-  display: inline-block;
-  width: 30%;
-  height: auto;
-}
 
 #contactInfo a {
-  color: #09b6f6;	
+  color: #00B2A6;	
 }
 
 #contactInfo h1 {
   text-align: center;	
+}
+
+.social-link {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
+.social-link img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -603,10 +649,21 @@ Media Queries
 .printDesign,
 .webDesign {
   width: 45%;
-  margin: 2%;
-  padding: 4%;
+  margin: 1%;
+  padding: 1%;
   display: inline-block;
 }
+
+.webPopUp,
+.webPopUp2 {
+  top: 25%;
+}
+
+
+#services h1 {
+  margin: 100px auto 40px;
+}
+
 
 .mobileNav {
   	width: 12%;
@@ -617,7 +674,7 @@ Media Queries
 }
 
 .aboutNavigateButton {
-  	width: 30%;
+  width: 30%;
 	margin: 2% 1.1%;
 	padding: 1%;
 	display: inline-block;
@@ -647,19 +704,24 @@ General page styling
   text-shadow: 0 0 4px #000;	
 }
 
-#services,
+
 #about,
 #contact {
-  height: 1020px;
+  height: 819px;
 }
 
-#aboutPlacement,
+
 #servicesPlacement,
 #portPlacement,
 #contactPlacement,
 .portItemWrapper {
   margin: 0 auto;
   padding: 2% 1% 1%;
+  text-align: left;
+}
+
+#aboutPlacement {
+  padding: 0;
   text-align: left;
 }
 
@@ -688,22 +750,20 @@ About Section
 
 #aboutPlacement {
   position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
-  padding: 3%;
-  line-height: 1.85;
+  top: 50;
+  left: 30px;
   border-radius: 25px;
 }
 
 #aboutPlacement h1 {
-  margin: 2%;
+  margin: 0;
 }
 
 #aboutNavigate {
-  width: 100%;
-  margin: 0;	
+  width: 85%;
+  margin: 0 auto;	
 }
+
 
 /******************************
 Individual Portfolio Item Pages
@@ -725,7 +785,7 @@ Individual Portfolio Item Pages
 }
 
 .portItemWrapper {
-  padding-top: 10%; 	
+  padding-top: 1%; 	
 }
 
 /***************
@@ -765,7 +825,7 @@ form textarea {
 
 #contactForm {
   width: 65%;
-  margin: 4% 0 0 0;	
+  margin: 0;	
 }
 
 #contactInfo {
@@ -805,8 +865,8 @@ for page columns
 .col {
   display: inline-block;
   vertical-align: top;
-  width: 45%;
-  margin: 2%;
+  width: 47%;
+  margin: 0 0 0 2%;
 }
 	}
 	
@@ -838,7 +898,7 @@ for page columns
 	
 	}
 	
-@media (min-width: 1190px) {
+@media (min-width: 1360px) {
 
 .title {	
 margin-top: .5%;
@@ -889,12 +949,12 @@ Services Pop-up-content
   width: 70%;
   left: 50%;
   margin-left: -35%;
-  padding: 2%;	
+  padding: 0;	
 }
 
 .popUpButton {
-  width: 49%;
-  margin: 9% 0 0 0;
+  width: 35%;
+  margin: 6%;
   padding: 1%;
   font-size: 1em;
   border: none;
@@ -934,15 +994,22 @@ DRY classes
   clear: both;	
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
 
 /******************************************
 Button styling.
 *******************************************/
 
 .button {
-  background: #18a6f0;
+  background: #00B2A6;
   color: #fff;
   border: none;
+  -webkit-appearance: none;
 }
 
 .button a {
